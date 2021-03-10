@@ -9,8 +9,7 @@ void drawing(double x, double y, double size, double R, double G, double B) {
 	glColor3f(R, G, B);
 
 	glLineWidth(2);
-	glBegin(GL_LINE_LOOP);
-		glVertex3f(x, y, 0);
+	glBegin(GL_POLYGON);
 		glVertex3f(x + dist, y - 0.75 * dist, 0.0);
 		glVertex3f(x + 0.5 * dist, y - 2 * dist, 0.0);
 		glVertex3f(x + 1.5 * dist, y - 1.25 * dist, 0.0);
@@ -20,6 +19,7 @@ void drawing(double x, double y, double size, double R, double G, double B) {
 		glVertex3f(x + 1.85 * dist, y, 0.0);
 		glVertex3f(x + 1.5 * dist, y + 1.25 * dist, 0.0);
 		glVertex3f(x + 1.15 * dist, y, 0.0);
+		glVertex3f(x, y, 0);
 	glEnd();
 
 	glFlush();

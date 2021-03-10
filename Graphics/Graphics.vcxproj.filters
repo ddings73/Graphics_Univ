@@ -21,5 +21,20 @@
     <ClCompile Include="week01_HW.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="PointToCircle.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Ortho.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="GLU_Modeling.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="GLUT_Modeling.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="week02_HW.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
